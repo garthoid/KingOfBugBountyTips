@@ -1,17 +1,29 @@
-## 👑 What is KingOfOneLineTips Project ? 👑
+<h1 align="center"> 👑 What is KingOfBugBounty Project </h1> 
 
-Our main goal is to share tips from some well-known bughunters. Using recon methodology, we are able to find subdomains, apis, and tokens that are already exploitable, so we can report them. We wish to influence Onelinetips and explain the commands, for the better understanding of new hunters..
+Our main goal is to share tips from some well-known bughunters. Using recon methodology, we are able to find subdomains, apis, and tokens that are already exploitable, so we can report them. We wish to influence Onelinetips and explain the commands, for the better understanding of new hunters.. 👑
 
-Want to earn 100 dollars using my code on ocean-digital? https://m.do.co/c/703ff752fd6f
+
+## Stats King
+
+![OFJAAAH](https://github-readme-stats.vercel.app/api?username=KingOfBugbounty&show_icons=true&theme=dracula)
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=703ff752fd6f&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ## Join Us
 
 [![Telegram](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/joinchat/DN_iQksIuhyPKJL1gw0ttA)
 [![The King](https://aleen42.github.io/badges/src/twitter.svg)](https://twitter.com/ofjaaah)
 
+## BugBuntu Download 
+
+- [BugBuntu](https://sourceforge.net/projects/bugbuntu/)
+- [@bt0s3c](https://twitter.com/bt0s3c)
+- [@MrCl0wnLab](https://twitter.com/MrCl0wnLab)
 
 ## Special thanks
 
+- [@bt0s3c](https://twitter.com/bt0s3c)
+- [@MrCl0wnLab](https://twitter.com/MrCl0wnLab)
 - [@Stokfredrik](https://twitter.com/stokfredrik)
 - [@Jhaddix](https://twitter.com/Jhaddix)
 - [@pdiscoveryio](https://twitter.com/pdiscoveryio)
@@ -26,39 +38,165 @@ Want to earn 100 dollars using my code on ocean-digital? https://m.do.co/c/703ff
 
 To run the project, you will need to install the following programs:
 
-- [Anew](https://github.com/tomnomnom/anew)
-- [Qsreplace](https://github.com/tomnomnom/qsreplace)
-- [Subfinder](https://github.com/projectdiscovery/subfinder)
-- [Gospider](https://github.com/jaeles-project/gospider)
-- [Github-Search](https://github.com/gwen001/github-search)
 - [Amass](https://github.com/OWASP/Amass)
-- [Hakrawler](https://github.com/hakluke/hakrawler)
-- [Gargs](https://github.com/brentp/gargs)
+- [Anew](https://github.com/tomnomnom/anew)
+- [Anti-burl](https://github.com/tomnomnom/hacks/tree/master/anti-burl)
+- [Assetfinder](https://github.com/tomnomnom/assetfinder)
+- [Axiom](https://github.com/pry0cc/axiom)
+- [CF-check](https://github.com/dwisiswant0/cf-check)
 - [Chaos](https://github.com/projectdiscovery/chaos-client)
+- [Dalfox](https://github.com/hahwul/dalfox)
+- [DNSgen](https://github.com/ProjectAnte/dnsgen)
+- [Filter-resolved](https://github.com/tomnomnom/hacks/tree/master/filter-resolved)
+- [Findomain](https://github.com/Edu4rdSHL/findomain)
+- [Fuff](https://github.com/ffuf/ffuf)
+- [Gargs](https://github.com/brentp/gargs)
+- [Gau](https://github.com/lc/gau)
+- [Gf](https://github.com/tomnomnom/gf)
+- [Github-Search](https://github.com/gwen001/github-search)
+- [Gospider](https://github.com/jaeles-project/gospider)
+- [Gowitness](https://github.com/sensepost/gowitness)
+- [Hakrawler](https://github.com/hakluke/hakrawler)
+- [HakrevDNS](https://github.com/hakluke/hakrevdns)
+- [Haktldextract](https://github.com/hakluke/haktldextract)
+- [Html-tool](https://github.com/tomnomnom/hacks/tree/master/html-tool)
 - [Httpx](https://github.com/projectdiscovery/httpx)
 - [Jaeles](https://github.com/jaeles-project/jaeles)
-- [Findomain](https://github.com/Edu4rdSHL/findomain)
-- [Gf](https://github.com/tomnomnom/gf)
-- [Unew](https://github.com/dwisiswant0/unew)
-- [Rush](https://github.com/shenwei356/rush)
 - [Jsubfinder](https://github.com/hiddengearz/jsubfinder)
-- [Shuffledns](https://github.com/projectdiscovery/shuffledns)
-- [haktldextract](https://github.com/hakluke/haktldextract)
-- [Gau](https://github.com/lc/gau)
-- [Axiom](https://github.com/pry0cc/axiom)
-- [Html-tools](https://github.com/tomnomnom/hacks/tree/master/html-tool)
-- [Dalfox](https://github.com/hahwul/dalfox)
-- [Gowitness](https://github.com/sensepost/gowitness)
-- [Kxss](https://github.com/Emoe/kxss) 
+- [Kxss](https://github.com/Emoe/kxss)
+- [LinkFinder](https://github.com/GerbenJavado/LinkFinder)
+- [Metabigor](https://github.com/j3ssie/metabigor)
+- [MassDNS](https://github.com/blechschmidt/massdns)
+- [Naabu](https://github.com/projectdiscovery/naabu)
+- [Qsreplace](https://github.com/tomnomnom/qsreplace)
+- [Rush](https://github.com/shenwei356/rush)
+- [SecretFinder](https://github.com/m4ll0k/SecretFinder)
+- [Shodan](https://help.shodan.io/command-line-interface/0-installation)
+- [ShuffleDNS](https://github.com/projectdiscovery/shuffledns)
+- [SQLMap](https://github.com/sqlmapproject/sqlmap)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [SubJS](https://github.com/lc/subjs)
+- [Unew](https://github.com/dwisiswant0/unew)
+- [WaybackURLs](https://github.com/tomnomnom/waybackurls)
+- [Wingman](https://xsswingman.com/#faq)
+- [Notify](https://github.com/projectdiscovery/notify)
+- [Goop](https://github.com/deletescape/goop)
+- [Tojson](https://github.com/tomnomnom/hacks/tree/master/tojson)
+- [GetJS](https://github.com/003random/getJS)
+- [X8](https://github.com/Sh1Yo/x8)
+- [Unfurl](https://github.com/tomnomnom/unfurl)
+- [XSStrike](https://github.com/s0md3v/XSStrike)
+- [Page-fetch](https://github.com/detectify/page-fetch)
+
+
+###  .bashrc shortcut.
+
+```bash
+reconjs(){
+gau -subs $1 |grep -iE '\.js'|grep -iEv '(\.jsp|\.json)' >> js.txt ; cat js.txt | anti-burl | awk '{print $4}' | sort -u >> AliveJs.txt
+}
+cert(){
+curl -s "[https://crt.sh/?q=%.$1&output=json](https://crt.sh/?q=%25.$1&output=json)" | jq -r '.[].name_value' | sed 's/\*\.//g' | anew
+}
+anubis(){
+curl -s "[https://jldc.me/anubis/subdomains/$1](https://jldc.me/anubis/subdomains/$1)" | grep -Po "((http|https):\/\/)?(([\w.-]*)\.([\w]*)\.([A-z]))\w+" | anew
+}
+```
+
+###  Running JavaScript on each page send to proxy. 
+- [Explained command](https://bit.ly/3daIyFw)
+
+```bash
+cat 200http | page-fetch --javascript '[...document.querySelectorAll("a")].map(n => n.href)' --proxy http://192.168.15.47:8080
+```
+
+
+
+###  Dalfox scan to bugbounty targets.
+- [Explained command](https://bit.ly/3nnEhCj)
+
+```bash
+xargs -a xss-urls.txt -I@ bash -c 'python3 /dir-to-xsstrike/xsstrike.py -u @ --fuzzer'
+```
+
+### Dalfox scan to bugbounty targets.
+- [Explained command](https://bit.ly/324Sr1x)
+```bash
+wget https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/master/data/domains.txt -nv ; cat domains.txt | anew | httpx -silent -threads 500 | xargs -I@ dalfox url @
+```
+
+### Using x8 to Hidden parameters discovery
+- [Explaining command](https://bit.ly/3w48wl8)
+
+```bash
+assetfinder domain | httpx -silent | sed -s 's/$/\//' | xargs -I@ sh -c 'x8 -u @ -w params.txt -o enumerate'
+```
+
+### Extract .js Subdomains
+- [Explaining command](https://bit.ly/339CN5p)
+
+```bash
+echo "domain" | haktrails subdomains | httpx -silent | getJS --complete | anew JS
+echo "domain" | haktrails subdomains | httpx -silent | getJS --complete | tojson | anew JS1
+```
+
+
+### goop to search .git files.
+- [Explaining command](https://bit.ly/3d0VcY5)
+
+```bash
+xargs -a xss -P10 -I@ sh -c 'goop @'
+```
+
+### Using chaos list to enumerate endpoint
+
+```bash
+curl -s https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json | jq -r '.programs[].domains[]' | xargs -I@ sh -c 'python3 paramspider.py -d @'
+```
+
+### Using Wingman to search XSS reflect / DOM XSS
+
+- [Explaining command](https://bit.ly/3m5ft1g)
+
+```bash
+xargs -a domain -I@ sh -c 'wingman -u @ --crawl | notify'
+
+```
+
+### Search ASN to metabigor and resolvers domain
+
+- [Explaining command](https://bit.ly/3bvghsY)
+
+```bash
+echo 'dod' | metabigor net --org -v | awk '{print $3}' | sed 's/[[0-9]]\+\.//g' | xargs -I@ sh -c 'prips @ | hakrevdns | anew'
+
+```
 
 ### OneLiners
+
+### Search .json gospider filter anti-burl
+
+- [Explaining command](https://bit.ly/3eoUhSb)
+
+```bash
+gospider -s https://twitch.tv --js | grep -E "\.js(?:onp?)?$" | awk '{print $4}' | tr -d "[]" | anew | anti-burl
+
+```
+
+### Search .json subdomain
+
+- [Explaining command](https://bit.ly/3kZydis)
+
+```bash
+assetfinder http://tesla.com | waybackurls | grep -E "\.json(?:onp?)?$" | anew 
+```
 
 ### SonarDNS extract subdomains
 
 - [Explaining command](https://bit.ly/2NvXRyv)
 
 ```bash
-wget https://opendata.rapid7.com/sonar.fdns_v2/2021-01-30-1611965078-fdns_a.json.gz ; gunzip 2021-01-30-1611965078-fdns_a.json ;  cat 2021-01-30-1611965078-fdns_a.json | grep ".DOMAIN.com" | jq .name | tr '" " "' " / " | tee -a sonar
+wget https://opendata.rapid7.com/sonar.fdns_v2/2021-02-26-1614298023-fdns_a.json.gz ; gunzip 2021-02-26-1614298023-fdns_a.json.gz ; cat 2021-02-26-1614298023-fdns_a.json | grep ".DOMAIN.com" | jq .name | tr '" " "' " / " | tee -a sonar
 ```
 
 ### Kxss to search param XSS 
@@ -137,7 +275,7 @@ cat dominios | gau |grep -iE '\.js'|grep -iEv '(\.jsp|\.json)' >> gauJS.txt ; ca
 - [Explaining command](https://bit.ly/3nWHM22)
 
 ```bash
-amass enum -d $1 -o amass1 ; chaos -d $1 -o chaos1 -silent ; assetfinder $1 >> assetfinder1 ; subfinder -d $1 -o subfinder1 ; findomain -t $1 -q -u findomain1 ;python3 /root/PENTESTER/github-search/github-subdomains.py -t YOURTOKEN -d $1 >> github ; cat assetfinder1 subfinder1 chaos1 amass1 findomain1 subfinder1 github >> hosts ; subfinder -dL hosts -o full -timeout 10 -silent ; httpx -l hosts -silent -threads 9000 -timeout 30 | anew domains ; rm -rf amass1 chaos1 assetfinder1 subfinder1 findomain1  github
+chaos -d $1 -o chaos1 -silent ; assetfinder -subs-only $1 >> assetfinder1 ; subfinder -d $1 -o subfinder1 -silent ; cat assetfinder1 subfinder1 chaos1 >> hosts ; cat hosts | anew clearDOMAIN ; httpx -l hosts -silent -threads 100 | anew http200 ; rm -rf chaos1 assetfinder1 subfinder1
 ```
 
 ###  Download all domains to bounty chaos
@@ -145,7 +283,7 @@ amass enum -d $1 -o amass1 ; chaos -d $1 -o chaos1 -silent ; assetfinder $1 >> a
 - [Explaining command](https://bit.ly/38wPQ4o)
 
 ```bash
-wget https://raw.githubusercontent.com/KingOfBugbounty/KingOfBugBountyTips/master/downlink ; xargs -a downlink -I@ sh -c 'wget @ -q'; mkdir bounty ; unzip '*.zip' -d bounty/ ; rm -rf *zip ; cat bounty/*.txt >> allbounty ; sort -u allbounty >> domainsBOUNTY ; rm -rf allbounty bounty/ ; echo '@OFJAAAH'
+curl https://chaos-data.projectdiscovery.io/index.json | jq -M '.[] | .URL | @sh' | xargs -I@ sh -c 'wget @ -q'; mkdir bounty ; unzip '*.zip' -d bounty/ ; rm -rf *zip ; cat bounty/*.txt >> allbounty ; sort -u allbounty >> domainsBOUNTY ; rm -rf allbounty bounty/ ; echo '@OFJAAAH'
 ```
 
 ###  Recon to search SSRF Test
@@ -490,7 +628,7 @@ assetfinder fitbit.com | httpx -threads 300 -follow-redirects -silent | rush -j2
 - [Explained command](https://bit.ly/2Rqn9gn)
 
 ```bash
-tac hostsGospider | rush -j 100 'hakrawler -js -plain -usewayback -depth 6 -scope subs -url {} | unew hakrawlerHttpx'
+cat hostsGospider | rush -j 100 'hakrawler -js -plain -usewayback -depth 6 -scope subs -url {} | unew hakrawlerHttpx'
 ```
 
 ###  XARGS to dirsearch brute force.
