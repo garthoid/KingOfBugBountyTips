@@ -14,6 +14,11 @@ Our main goal is to share tips from some well-known bughunters. Using recon meth
 [![Telegram](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/joinchat/DN_iQksIuhyPKJL1gw0ttA)
 [![The King](https://aleen42.github.io/badges/src/twitter.svg)](https://twitter.com/ofjaaah)
 
+<div>
+  <a href="https://www.linkedin.com/in/atjunior/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></img></a>
+  <a href="https://www.youtube.com/c/OFJAAAH"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+</div>
+
 ## BugBuntu Download 
 
 - [BugBuntu](https://sourceforge.net/projects/bugbuntu/)
@@ -33,6 +38,7 @@ Our main goal is to share tips from some well-known bughunters. Using recon meth
 - [@j3ssiejjj](https://twitter.com/j3ssiejjj)
 - [@zseano](https://twitter.com/zseano)
 - [@pry0cc](https://twitter.com/pry0cc)
+- [@wellpunk](https://twitter.com/wellpunk)
 
 ## Scripts that need to be installed
 
@@ -45,6 +51,7 @@ To run the project, you will need to install the following programs:
 - [Axiom](https://github.com/pry0cc/axiom)
 - [CF-check](https://github.com/dwisiswant0/cf-check)
 - [Chaos](https://github.com/projectdiscovery/chaos-client)
+- [Cariddi](https://github.com/edoardottt/cariddi)
 - [Dalfox](https://github.com/hahwul/dalfox)
 - [DNSgen](https://github.com/ProjectAnte/dnsgen)
 - [Filter-resolved](https://github.com/tomnomnom/hacks/tree/master/filter-resolved)
@@ -59,6 +66,7 @@ To run the project, you will need to install the following programs:
 - [Hakrawler](https://github.com/hakluke/hakrawler)
 - [HakrevDNS](https://github.com/hakluke/hakrevdns)
 - [Haktldextract](https://github.com/hakluke/haktldextract)
+- [Haklistgen](https://github.com/hakluke/haklistgen)
 - [Html-tool](https://github.com/tomnomnom/hacks/tree/master/html-tool)
 - [Httpx](https://github.com/projectdiscovery/httpx)
 - [Jaeles](https://github.com/jaeles-project/jaeles)
@@ -88,8 +96,14 @@ To run the project, you will need to install the following programs:
 - [XSStrike](https://github.com/s0md3v/XSStrike)
 - [Page-fetch](https://github.com/detectify/page-fetch)
 
+###  BBRF SCOPE DoD
 
-###  .bashrc shortcut.
+```bash
+bbrf inscope add '*.af.mil' '*.osd.mil' '*.marines.mil' '*.pentagon.mil' '*.disa.mil' '*.health.mil' '*.dau.mil' '*.dtra.mil' '*.ng.mil' '*.dds.mil' '*.uscg.mil' '*.army.mil' '*.dcma.mil' '*.dla.mil' '*.dtic.mil' '*.yellowribbon.mil' '*.socom.mil'
+```
+
+
+###  .bashrc shortcut OFJAAAH
 
 ```bash
 reconjs(){
@@ -103,6 +117,14 @@ curl -s "[https://jldc.me/anubis/subdomains/$1](https://jldc.me/anubis/subdomain
 }
 ```
 
+###  Oneliner Haklistgen
+- @hakluke
+
+```bash
+subfinder -silent -d domain | anew subdomains.txt | httpx -silent | anew urls.txt | hakrawler | anew endpoints.txt | while read url; do curl $url --insecure | haklistgen | anew wordlist.txt; done
+cat subdomains.txt urls.txt endpoints.txt | haklistgen | anew wordlist.txt;
+```
+
 ###  Running JavaScript on each page send to proxy. 
 - [Explained command](https://bit.ly/3daIyFw)
 
@@ -110,7 +132,12 @@ curl -s "[https://jldc.me/anubis/subdomains/$1](https://jldc.me/anubis/subdomain
 cat 200http | page-fetch --javascript '[...document.querySelectorAll("a")].map(n => n.href)' --proxy http://192.168.15.47:8080
 ```
 
+###  Running cariddi to Crawler
+- [Explained command](https://bit.ly/3hQPF8w)
 
+```bash
+echo tesla.com | subfinder -silent | httpx -silent | cariddi -intensive
+```
 
 ###  Dalfox scan to bugbounty targets.
 - [Explained command](https://bit.ly/3nnEhCj)
@@ -620,7 +647,7 @@ assetfinder -subs-only paypal.com -silent | httpx -timeout 3 -threads 300 --foll
 - [Explained command](https://bit.ly/33qT71x)
 
 ```bash
-assetfinder fitbit.com | httpx -threads 300 -follow-redirects -silent | rush -j200 'curl -m5 -s -I -H "Origin:evil.com" {} |  [[ $(grep -c "evil.com") -gt 0 ]] && printf "\n\033[0;32m[VUL TO CORS] - {}\e[m"' 2>/dev/null"
+assetfinder fitbit.com | httpx -threads 300 -follow-redirects -silent | rush -j200 'curl -m5 -s -I -H "Origin:evil.com" {} |  [[ $(grep -c "evil.com") -gt 0 ]] && printf "\n\033[0;32m[VUL TO CORS] - {}\e[m"'
 ```
 
 ###  Search to js using hakrawler and rush & unew
@@ -755,5 +782,4 @@ xargs -a recursivedomain -P50 -I@ sh -c 'openssl s_client -connect @:443 2>&1 '|
 
 
 <a href="https://www.buymeacoffee.com/OFJAAAH" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 20px !important;width: 50px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 
